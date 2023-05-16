@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import Darshan from './darshan';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +14,7 @@ root.render(
      <Router>
      <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/darshan" element={<App />} />
+          <Route path="/darshan" element={<Darshan />} />
     </Routes>
     </Router>
   </React.StrictMode>
